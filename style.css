@@ -1,0 +1,43 @@
+body {
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#board {
+  background-color: white;
+  height: 600px;
+  width: 600px;
+  border: 1px solid rebeccapurple;
+  /* cursor: not-allowed; */
+}
+
+#miniBoard {
+  background-color: white;
+  /* height: 600px;
+  width: 600px; */
+  border: 1px solid rebeccapurple;
+  /* cursor: not-allowed; */
+}
+div{
+  /* display: inline-block; */
+  /* margin: 10px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+input{
+  margin:4px;
+}
+a{
+  border-radius: 20px;
+  background-color: rgb(97, 97, 97);
+  padding: 4px 10px;
+  color: aliceblue;
+
+
+cursor: pointer; 
+}
